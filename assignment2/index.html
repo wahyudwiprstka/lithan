@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Layout</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header and Navigation -->
+    <div class="head">
+        <header>
+            ABC Learning Center
+        </header>
+    
+        <nav>
+            <ul style="list-style: none;" class="navs">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="img/img2.jpg" style="width:100%">
+            <div class="text">Welcome to ABC Learning Center Website</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="img/img3.jpg" style="width:100%;">
+            <div class="text">Grow Up Your IT Skills With Us</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="img/img1.jpg" style="width:100%">
+            <div class="text">Get a Job Immediately After Graduated</div>
+        </div>
+    
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+
+    <section class="description">
+        <h2>Objects</h2>
+        <br>
+        <p>Welcome to ABC Learning Center!</p>
+        <p>You can grow your skills related to IT skills.</p>
+        <p>Here are some objects/programming languages that we can learn here</p>
+        <div class="images flex-container space-evenly">
+            <a href="https://www.office.com/"><img src="img/office.png" alt="" style="height: 100px;"></a>
+            <a href="https://java.com/"><img src="img/java.png" alt="" style="height: 100px;"></a>
+            <a href="https://html.spec.whatwg.org/multipage/"><img src="img/html.png" alt="" style="height: 100px;"></a>
+            <a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="img/css.png" alt="" style="height: 100px;"></a>
+            <a href="https://www.javascript.com/"><img src="img/js.png" alt="" style="height: 100px;"></a>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2 style="text-align: center;">Courses</h2>
+        <div class="flex-container space-evenly">
+            <div class="card">
+                <img src="img/web-development.jpg" alt="Web Development Image">
+                <h3>Web Development</h3>
+                <p>In this course you will learn some objects, such as HTML, CSS, and Javascript</p>
+                <button>Join Now!</button>
+            </div>
+            <div class="card">
+                <img src="img/programming.jpg" alt="Programming Image">
+                <h3>Programming & Office</h3>
+                <p>In this course you will learn a programming language and learn how to operate office tools, such as microsoft office, excel, powerpoint, etc.</p>
+                <button>Join Now!</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex-container space-between">
+            <ul>
+                <li><a href="sitemap.html">Sitemap</a></li>
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            </ul>
+            <p>ABC Learning Center, Copyright 2022. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
