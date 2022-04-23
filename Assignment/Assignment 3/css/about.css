@@ -1,0 +1,42 @@
+/* Title Section */
+.title{
+    text-align: center;
+    margin: 0;
+    padding-top: 130px;
+}
+
+/* Description Section */
+.company-description{
+    z-index: 1;
+    height: 90vh;
+}
+
+.company-description .txt{
+    position: absolute;
+    width: 50vw;
+    font-size: 1.2em;
+    color: white;
+    background-color: #417D7A;
+    margin-top: 50px;
+    padding: 100px 30vw 100px 10%;
+}
+
+.company-description img{
+    position: absolute;
+    width: 400px;
+    left: 65%;
+}
+
+/* vision mission */
+.vision-mission{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 30px 0 200px;
+    height: 100px;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 150px;
+    background-color: #417D7A;
+    color: white;
+    box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}

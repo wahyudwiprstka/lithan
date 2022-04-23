@@ -1,0 +1,14 @@
+.schedule{
+    padding-top: 80px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+    width: 70vw;
+    text-align: center;
+}
