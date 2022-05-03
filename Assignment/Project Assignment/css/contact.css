@@ -1,0 +1,55 @@
+/* form */
+.form{
+    padding-top: 15vh;
+    padding-bottom: 25vh;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    transition: 0.3s;
+    width: 1000px;
+    height: 80vh;
+    margin: auto;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button[type="submit"]{
+    margin-top: 20px;
+    background-color: #405cf5;
+    border-width: 0;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    position: relative;
+}
+
+button[type="submit"]:hover{
+    background-color: #3247be;
+    transition: 0.3s;
+}
+
+.formel{
+    padding-top: 20px;
+}
+
+label{
+    font-weight: lighter;
+}
+
+input[type="text"], input[type="email"]{
+    width: 300px;
+    height: 3vh;
+}
+
+textarea{
+    width: 300px;
+}

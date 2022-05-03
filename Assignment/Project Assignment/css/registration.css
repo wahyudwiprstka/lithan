@@ -1,0 +1,45 @@
+h1{
+    margin: 0;
+    margin-bottom: 20px;
+    color: #1D5C63;
+}
+
+.content{
+    display: flex;
+    padding-top: 6vh;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    width: 30vw;
+    padding: 50px 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.content input{
+    width: 20vw;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+.content button{
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #405cf5;
+    color: white;
+    height: 40px;
+    width: 21vw;
+    border-radius: 6px;
+}
+
+#fnameError, #lnameError, #emailError, #usernameError, #passwordError{
+    font-size: 0.8em;
+    color: red;
+    margin: 0;
+}

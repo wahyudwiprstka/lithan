@@ -1,4 +1,5 @@
 $("document").ready(function(){
+  // Dropdown Nav
   $("nav li").mouseenter(function(){
     $(this).find(".dropdown-content").stop(true, true).slideDown(300);
   });

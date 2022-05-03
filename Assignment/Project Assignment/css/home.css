@@ -1,0 +1,115 @@
+/* Slideshow */
+.slideshow-container{
+    background: rgba(0, 0, 0, 0.8);
+    max-width: 100vw;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    transition: 0.4s;
+}
+
+.slideshow-container img{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.mySlides{
+    display: none;
+    transition: 0.4s;
+}
+
+.text{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 55%);
+    font-size: 2em;
+    bottom: 55%;
+    color: #ffffff;
+    font-weight: 900;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: 0.3}
+    to {opacity: 1}
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.next{
+    right: 0;
+}
+
+/* Description Section */
+.description{
+    position: relative;
+    height: 50vh;
+    padding-top: 19vh;
+    font-size: 1.1em;
+    text-align: center;
+    line-height: 0.2;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.description a{
+    margin-top: 30px;
+}
+
+/* Courses Section */
+.courses{
+    padding-top: 40px;
+    background-color: #417D7A;
+    box-shadow: 0 2px 0 black;
+}
+.card{
+    width: 28vw;
+    margin: 30px 0 100px;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: white;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: 0.3s;
+}
+
+.card img{
+    width: 28vw;
+}
+
+.card button{
+    background-color: #405cf5;
+    border-width: 0;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    color: white;
+}
+
+.card button:hover{
+    background-color: #3247be;
+    transition: 0.3s;
+}

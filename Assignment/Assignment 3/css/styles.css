@@ -76,12 +76,16 @@ nav a:hover{
 .dropdown-content{
     display: none;
     position: absolute;
-    width: 100px;
     list-style: none;
     background-color: white;
     border-radius: 2px;
+    width: 150px;
     padding: 0;
-    margin-left: 50px;
+    margin-left: 20px;
+}
+
+.dc2{
+    margin-left: 30px;
 }
 
 .dropdown-content li{
@@ -97,6 +101,8 @@ nav a:hover{
 .dropdown-content li a:hover{
     color: #405cf5;
 }
+
+
 
 /* Footer */
 footer{

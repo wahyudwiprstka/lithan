@@ -1,0 +1,35 @@
+/* Sitemap */
+.sitemap{
+    padding-top: 30vh;
+    height: 70vh;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.sitemap ul li, .sitemap ul h2{
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+ul li a:hover{
+    color: blueviolet;
+}
