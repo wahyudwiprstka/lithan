@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC Learning Center</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/registration.css">
+    <link rel="stylesheet" href="css/regList.css">
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -38,34 +38,42 @@
                         <li><a href="course-schedule2.html">Programming & Office</a></li>
                     </ul>
                 </li>
-                <li>
-                    <a href="registration.html"><button id="regButton">Register</button></a>
-                </li>
             </ul>
         </nav>
+        <div class="topnav">
+            <ul style="list-style: none;" class="topnavbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a onclick="courseDetailClick();" style="cursor: pointer;">Course Details</a></li>
+                <div class="course-detail">
+                    <li><a href="course-detail1.html">Web Development</a></li>
+                    <li><a href="course-detail2.html">Programming & Office</a></li>
+                </div>
+                <li><a onclick="courseScheduleClick();" style="cursor: pointer;">Course Schedule</a></li>
+                <div class="course-schedule">
+                    <li><a href="course-schedule1.html">Web Development</a></li>
+                    <li><a href="course-schedule2.html">Programming & Office</a></li>
+                </div>
+            </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="topnavClick();"><i class="fa fa-bars"></i></a>
     </div>
 
-    <div class="content">
-        <form action="regTY.html" onsubmit="return validation()" method="post">
-            <h1>Registration</h1>
-            <label for="fname">First Name</label><br>
-            <input type="text" name="fname" id="fname"><br>
-            <div id="fnameError"></div>
-            <label for="lname">Last Name</label><br>
-            <input type="text" name="lname" id="lname"><br>
-            <div id="lnameError"></div>
-            <label for="email">Email</label><br>
-            <input type="email" name="email" id="email"><br>
-            <div id="emailError"></div>
-            <label for="username">Username</label><br>
-            <input type="text" name="username" id="username"><br>
-            <div id="usernameError"></div>
-            <label for="password">Password</label><br>
-            <input type="password" name="password" id="password"><br>
-            <div id="passwordError"></div>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+    <section class="content">
+        <h1>Student List</h1>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Course</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </table>
+    </section>
 
     <footer>
         <div class="flex-container space-between">
@@ -79,6 +87,6 @@
 
 
     <script src="js/script.js"></script>
-    <script src="js/validation.js"></script>
+    <script src="js/list.js"></script>
 </body>
 </html>

@@ -132,6 +132,52 @@ nav a:hover{
     color: white;
     transition: 0.3s;
 }
+.topnav{
+    display: none;
+    font-size: 0.9rem;
+}
+a.icon{
+    display: none;
+}
+.topnav ul{
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    left: 0%;
+    top: 80px;
+    flex-direction: column;
+    background-color: #1A3C40;
+    align-items: center;
+    margin: 0;
+}
+.topnav div.course-detail, .topnav div.course-schedule{
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 0;
+    height: 20vh;
+    width: 100%;
+    background-color: #1A3C40;
+}
+.topnav ul li a{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.icon{
+    display: block;
+    color: white;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
 
 #regButton{
     background-color: #1481ff;
@@ -164,6 +210,7 @@ nav a:hover{
 
 /* Footer */
 footer{
+    height: 80px;
     background-color: #1A3C40;
     color: white;
 }
@@ -179,7 +226,6 @@ footer ul li a{
 
 footer p{
     margin-top: 27px;
-    margin-right: 40px;
 }
 
 footer a:hover{
@@ -187,8 +233,27 @@ footer a:hover{
     transition: 0.2s;
 }
 
-@media screen and (max-width: 1084px) {
+@media screen and (max-width: 1117px) {
     .head{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 1026px){
+    .navs{
+        display: none;
+    }
+    ul.topnavbar{
+        padding: 0;
+    }
+    .fa-angle-right{
+        display: none;
+    }
+    a.icon{
+        float: right;
+        display: flex;
+    }
+    footer{
         font-size: 0.9em;
     }
 }
