@@ -32,9 +32,24 @@ html, body{
 .align-center{
     align-items: center;
 }
+.direction-column{
+    flex-direction: column;
+}
 i{
     margin-left: 5px;
 }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
 /* HEADER & NAVS */
 .head{
@@ -179,43 +194,25 @@ a.icon{
     margin-right: 20px;
 }
 
-#regButton{
-    background-color: #1481ff;
-    border-width: 0;
-    border-radius: 6px;
-    box-sizing: border-box;
-    width: 80px;
-    height: 35px;
-    position: relative;
-    cursor: pointer;
-    color: white;
+.content{
+    display: flex;
     align-items: center;
-    transition: 0.3s;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    min-height: 100vh;
 }
-
-#regButton:hover{
-    transition: 0.3s;
-    background-color: #1e5eb8;
-}
-
-#regButton:disabled {
-  cursor: default;
-}
-
-#regButton:focus {
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
-}
-
-
 
 /* Footer */
 footer{
     height: 80px;
     background-color: #1A3C40;
     color: white;
+    padding: 0 30px;
 }
 
 footer ul{
+    padding: 0;
     list-style: none;
 }
 

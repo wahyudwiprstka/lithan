@@ -2,14 +2,6 @@ h2, p{
     margin: 5px;
 }
 
-.content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-}
-
 .card{
     display: flex;
     flex-direction: column;

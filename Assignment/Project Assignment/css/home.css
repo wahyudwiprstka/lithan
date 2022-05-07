@@ -78,13 +78,17 @@
 
 /* Courses Section */
 .courses{
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 800px;
+    display: flex;
     padding-top: 40px;
     background-color: #417D7A;
     box-shadow: 0 2px 0 black;
 }
 .card{
+    height: 500px;
     width: 28vw;
-    margin: 30px 0 100px;
     text-align: center;
     padding-bottom: 10px;
     background-color: white;

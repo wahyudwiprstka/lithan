@@ -1,12 +1,4 @@
 /* form */
-.form{
-    padding-top: 15vh;
-    padding-bottom: 25vh;
-    z-index: 1;
-    margin: auto;
-    text-align: center;
-}
-
 form{
     background-color: white;
     transition: 0.3s;

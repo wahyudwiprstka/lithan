@@ -5,11 +5,7 @@ h1{
 }
 
 .content{
-    display: flex;
     padding-top: 6vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     height: 700px;
 }
 
