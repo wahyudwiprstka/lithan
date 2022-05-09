@@ -25,19 +25,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a>Course Details</a><i class="fa-solid fa-angle-right"></i>
-                    <ul class="dropdown-content">
-                        <li><a href="course-detail1.html">Web Development</a></li>
-                        <li><a href="course-detail2.html">Programming & Office</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a>Course Schedule</a><i class="fa-solid fa-angle-right"></i>
-                    <ul class="dropdown-content dc2">
-                        <li><a href="course-schedule1.html">Web Development</a></li>
-                        <li><a href="course-schedule2.html">Programming & Office</a></li>
-                    </ul>
-                </li>
+                <li><a href="course-list.html">Courses</a>
             </ul>
         </nav>
         <div class="topnav">
@@ -45,16 +33,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a onclick="courseDetailClick();" style="cursor: pointer;">Course Details</a></li>
-                <div class="course-detail">
-                    <li><a href="course-detail1.html">Web Development</a></li>
-                    <li><a href="course-detail2.html">Programming & Office</a></li>
-                </div>
-                <li><a onclick="courseScheduleClick();" style="cursor: pointer;">Course Schedule</a></li>
-                <div class="course-schedule">
-                    <li><a href="course-schedule1.html">Web Development</a></li>
-                    <li><a href="course-schedule2.html">Programming & Office</a></li>
-                </div>
+                <li><a href="course-list.html">Courses</a></li>
             </ul>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="topnavClick();"><i class="fa fa-bars"></i></a>
@@ -63,22 +42,22 @@
     <!-- Course 1 Details (Web Development) -->
     <div class="hero-banner">
         <div class="course-details">
-            <div class="course-details-items">
-                <h1>Programming & Office</h1>
+            <h1>Programming & Office</h1>
 
+            <div>
                 <span class="heading">User Rating</span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star checked"></span>
-    
-                <p>4.9 average based on 67 reviews.</p>
-    
-                <a href="lead-registration.html"><button type="submit" style="cursor: pointer;">Join Course</button></a>
-    
-                <p>578 people already enrolled</p>
             </div>
+            
+            <p>4.9 average based on 67 reviews.</p>
+
+            <a href="lead-registration.html"><button type="submit" style="cursor: pointer;">Join Course</button></a>
+
+            <p>578 people already enrolled</p>
         </div>
         <div class="course-description">
             <p>Go from no-code to an in-demand junior programmer, at a fraction of the cost of a bootcamp. Start with the Office learning, such as Microsoft Word, Excel, and PowerPoint. And than the next module would be Programming with Java</p>
@@ -99,6 +78,9 @@
                 <li>Java Basic</li>
                 <li>Java OOP</li>
             </ul>
+        </div>
+        <div class="button">
+            <a href="course-schedule1.html" class="button"><button type="submit">See Schedule</button></a>
         </div>
     </div>
 

@@ -25,19 +25,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a>Course Details</a><i class="fa-solid fa-angle-right"></i>
-                    <ul class="dropdown-content">
-                        <li><a href="course-detail1.html">Web Development</a></li>
-                        <li><a href="course-detail2.html">Programming & Office</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a>Course Schedule</a><i class="fa-solid fa-angle-right"></i>
-                    <ul class="dropdown-content dc2">
-                        <li><a href="course-schedule1.html">Web Development</a></li>
-                        <li><a href="course-schedule2.html">Programming & Office</a></li>
-                    </ul>
-                </li>
+                <li><a href="course-list.html">Courses</a>
             </ul>
         </nav>
         <div class="topnav">
@@ -45,16 +33,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-                <li><a onclick="courseDetailClick();" style="cursor: pointer;">Course Details</a></li>
-                <div class="course-detail">
-                    <li><a href="course-detail1.html">Web Development</a></li>
-                    <li><a href="course-detail2.html">Programming & Office</a></li>
-                </div>
-                <li><a onclick="courseScheduleClick();" style="cursor: pointer;">Course Schedule</a></li>
-                <div class="course-schedule">
-                    <li><a href="course-schedule1.html">Web Development</a></li>
-                    <li><a href="course-schedule2.html">Programming & Office</a></li>
-                </div>
+                <li><a href="course-list.html">Courses</a></li>
             </ul>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="topnavClick();"><i class="fa fa-bars"></i></a>
@@ -67,16 +46,19 @@
         <div class="mySlides fade">
             <img src="img/img2.jpg" style="width:100%">
             <div class="text">Welcome to ABC Learning Center Website</div>
+            <a href="lead-registration.html" class="join-course"><button>Join Course</button></a>
         </div>
     
         <div class="mySlides fade">
             <img src="img/img3.jpg" style="width:100%;">
             <div class="text">Grow Up Your IT Skills With Us</div>
+            <a href="lead-registration.html" class="join-course"><button>Join Course</button></a>
         </div>
     
         <div class="mySlides fade">
             <img src="img/img1.jpg" style="width:100%">
             <div class="text">Get a Job Immediately After Graduated</div>
+            <a href="lead-registration.html" class="join-course button"><button>Join Course</button></a>
         </div>
     
         <!-- Next and previous buttons -->
@@ -86,8 +68,7 @@
     
 
     <section class="description">
-        <h2 style="margin: 0; padding-bottom: 10px;">Objects</h2>
-        <br>
+        <h2>Objects</h2>
         <p>Welcome to ABC Learning Center!</p>
         <p>You can grow your skills related to IT skills.</p>
         <p>Here are some objects/programming languages that we can learn here</p>
@@ -101,26 +82,29 @@
     </section>
 
     <section class="courses">
-        <h2 style="text-align: center; color: white;">Courses</h2>
+        <h2 style="text-align: center; color: white;">Popular Courses</h2>
         <div class="flex-container space-evenly">
             <div class="card">
                 <img src="img/web-development.jpg" alt="Web Development Image">
-                <h3>Web Development</h3>
-                <p>In this course you will learn some objects, such as HTML, CSS, and Javascript</p>
-                <a href="course-detail1.html">
-                    <button>Join Now!</button>
-                </a>
+                <div class="card-content">
+                    <h3>Web Development</h3>
+                    <p>In this course you will learn some objects, such as HTML, CSS, and Javascript</p>
+                    <a href="course-detail1.html">
+                        <button>See Details</button>
+                    </a>
+                </div>
             </div>
             <div class="card">
                 <img src="img/programming.jpg" alt="Programming Image">
-                <h3>Programming & Office</h3>
-                <p>In this course you will learn a programming language and learn how to operate office tools, such as microsoft office, excel, powerpoint, etc.</p>
-                <a href="course-detail2.html">
-                    <button>Join Now!</button>
-                </a>
+                <div class="card-content">
+                    <h3>Programming & Office</h3>
+                    <p>In this course you will learn a programming language and learn how to operate office tools, such as microsoft office, excel, powerpoint, etc.</p>
+                    <a href="course-detail2.html">
+                        <button>See Details</button>
+                    </a>
+                </div>
             </div>
         </div>
-        <a href="course-list.html"style="color: white; text-decoration: none;"><p style="text-align: center;">View More Course</p></a>
        
     </section>
 

@@ -1,5 +1,18 @@
-.row{
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     min-height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.row{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -8,7 +21,7 @@
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: center;
     padding: 10px;
     width: 30vw;
@@ -16,22 +29,9 @@
     background-color: white;
     border: 1px solid black;
     align-items: center;
+    margin: 20px;
 }
 
-.card button{
-    background-color: #405cf5;
-    border-width: 0;
-    border-radius: 6px;
-    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
-    box-sizing: border-box;
-    width: 200px;
-    height: 40px;
-    position: relative;
-    cursor: pointer;
-    color: white;
-}
-
-.card button:hover{
-    background-color: #3247be;
-    transition: 0.3s;
+.card h1{
+    margin: 0;
 }

@@ -2,40 +2,49 @@
 .title{
     text-align: center;
     margin: 0;
-    padding-top: 130px;
+    padding-top: 120px;
 }
 
 /* Description Section */
 .company-description{
-    z-index: 1;
-    height: 90vh;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 .company-description .txt{
-    position: absolute;
-    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    width: 60vw;
+    height: 350px;
     font-size: 1.2em;
     color: white;
     background-color: #417D7A;
-    margin-top: 50px;
-    padding: 100px 30vw 100px 10%;
 }
 
 .company-description img{
-    position: absolute;
     width: 400px;
-    left: 65%;
 }
 
 /* vision mission */
 .vision-mission{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     text-align: center;
     font-size: 1.2em;
-    padding: 30px 0 200px;
-    height: 100px;
+    height: 400px;
     width: 70vw;
     margin: auto;
     margin-bottom: 150px;
+    padding: 20px;
     background-color: #417D7A;
     color: white;
     box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;

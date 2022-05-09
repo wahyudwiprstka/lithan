@@ -1,13 +1,4 @@
 $("document").ready(function(){
-  // Dropdown Nav
-  // $("nav li").mouseenter(function(){
-  //   $(this).find(".dropdown-content").stop(true, true).slideDown(300);
-  // });
-
-  // $("nav li").mouseleave(function(){
-  //   $(this).find(".dropdown-content").stop(true, true).slideUp(300);
-  // });
-
   $("nav ul li").hover(function(){
     $(this).find(".dropdown-content").stop(true, true).slideDown(300).css("display", "flex");
     $(this).find(".fa-angle-right").css("transform", "rotate(90deg)");
@@ -19,16 +10,16 @@ $("document").ready(function(){
 });
 
 // Navbar Toggle
-var prevScrollPos = window.pageYOffset;
-window.onscroll = function(){
-  var currentScrollPos = window.pageYOffset;
-  if(prevScrollPos > currentScrollPos){
-    document.querySelector(".head").style.top = "0px";
-  }else{
-    document.querySelector(".head").style.top = "-100px";
-  }
-  prevScrollPos = currentScrollPos;
-}
+// var prevScrollPos = window.pageYOffset;
+// window.onscroll = function(){
+//   var currentScrollPos = window.pageYOffset;
+//   if(prevScrollPos > currentScrollPos){
+//     document.querySelector(".head").style.top = "0px";
+//   }else{
+//     document.querySelector(".head").style.top = "-100px";
+//   }
+//   prevScrollPos = currentScrollPos;
+// }
 
 
 // Slideshow
@@ -71,20 +62,6 @@ function topnavClick(){
     $(".topnav").slideUp(300).css("display", "none");
   }
   
-}
-
-function courseDetailClick(){
-  if($("div.course-detail").css("display") === "none"){
-    $("div.course-detail").css("display", "flex").css("visibility", "visible");
-    $(".topnav").css("visibility", "hidden");
-  }
-}
-
-function courseScheduleClick(){
-  if($("div.course-schedule").css("display") === "none"){
-    $("div.course-schedule").css("display", "flex").css("visibility", "visible");
-    $(".topnav").css("visibility", "hidden");
-  }
 }
 
 function store(){

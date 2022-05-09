@@ -5,30 +5,28 @@ hr{
 
 .hero-banner{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding-top: 80px;
     height: 95vh;
     width: 100%;
-
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://source.unsplash.com/eYpcLDXHVb0');
     background-repeat: no-repeat;
     background-size: cover;
-
     position: relative;
 }
 
 .course-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     background-color: white;
-    padding-top: 10vh;
-    margin-left: 7vw;
-    margin-top: 15vh;
     width: 400px;
-    height: 50vh;
+    height: 30vh;
+    padding: 50px 0;
     text-align: center;
     border-radius: 5px;
-}
-
-.course-details-items{
-    align-items: center;
 }
 
 .checked {
@@ -54,8 +52,6 @@ hr{
 
 .course-description{
     width: 50vw;
-    margin-top: 32vh;
-    margin-left: 3vw;
     color: white;
     font-size: 1.5em;
     font-weight: 600;

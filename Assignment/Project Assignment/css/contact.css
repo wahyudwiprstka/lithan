@@ -1,9 +1,12 @@
 /* form */
 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     background-color: white;
     transition: 0.3s;
-    width: 1000px;
-    height: 80vh;
+    width: 700px;
+    height: 500px;
     margin: auto;
     color: black;
     font-size: 1.2em;
